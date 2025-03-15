@@ -43,9 +43,7 @@ export class PrimaryInputComponent implements ControlValueAccessor{
     this.onChange = fn;
   }
 
-  setDisabledState(isDisabled: boolean): void {
-    throw new Error('Method not implemented.');
-  }
+  setDisabledState(isDisabled: boolean): void {}
 
   registerOnTouched(fn: any): void {
     this.onTouched = fn;
